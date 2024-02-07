@@ -32,7 +32,7 @@ You need to use mongodb to store all the data persistently.
   Output: { courses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
 
 ### User routes
-- POST /users/signup
+- POST /user/signup
   Description: Creates a new user account.
   Input: { username: 'user', password: 'pass' }
   Output: { message: 'User created successfully' }
